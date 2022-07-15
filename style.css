@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.About{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 65px 20px 65px;
+  
+  width: fit-content;
+}
+.About #item1{ display: inline;
+  width: 50%;
+}
+.About .item2{
+  display: flex;
+}
+.About.item2 div{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgb(127,208,255);
+}
+#c1{
+  margin: 40px 0px 40px 0px;
+  align-items: flex-end;
+  justify-content: flex;
+  font-size: 50px;
+  font-weight: bold;
+}
+#c1 > span{
+  color: rgb(18,135,231);
+}
+#c2{
+  margin-top: 0%;
+  font-weight: bold;
+}
+#image img {
+  height: 500px;
+  width: 550px;
+  overflow: hidden;
+justify-content: baseline;
+align-items: baseline;
+}
+h5{
+  width: fit-content;
+  margin: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(232, 239, 239);
+  border-radius: 10px;
+  padding: 4px;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.learn{
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 20px;
+  height: 70px;
+  width: 150px;
+  color: black;
+  margin: 80px 0px 0px 0px;
+  padding: 15px;
+  font: bold;
+  font-size: large;
+}
